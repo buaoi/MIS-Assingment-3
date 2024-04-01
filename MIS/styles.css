@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('weather\ back.jpeg'); 
+    background-size: 100% ;
+    background-position: center;
+}
+
+header {
+    background-color: #450303;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#countryInput {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #011802;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000b01;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.country-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.country-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.country-card h2 {
+    padding: 15px;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.country-card p {
+    padding: 0 15px 10px;
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.country-card button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.country-card button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #450303;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
